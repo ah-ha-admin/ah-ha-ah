@@ -49,7 +49,7 @@ Gem::Specification.new do |spec|
   # Linting rubocop-lts v12 is a rubocop wrapper for Ruby >= 2.4,
   #   and should only be bumped when dropping old Ruby support
   # see: https://dev.to/pboling/rubocop-lts-1e31
-  spec.add_development_dependency "rubocop-lts", ["~> 12.0", ">= 12.0.1"]
+  spec.add_development_dependency "rubocop-lts", ["~> 24.0", ">= 24.2.3"]
 
   # Lint RSpec code
   spec.add_development_dependency "rubocop-rspec"
